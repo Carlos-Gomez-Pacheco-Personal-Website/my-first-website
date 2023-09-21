@@ -1,0 +1,213 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+/*//////////////////////////////////// Navegation Bar Classes /////////////////////////////////////////////////*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.868);
+  font-family: "Audiowide", sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  border: 10px solid black;
+  height: 136px;
+  padding: 0;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list-item {
+  list-style: none;
+  font-size: 32px;
+  margin: 0 50px;
+}
+.nav-link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
+}
+.nav-title {
+  font-size: 32px;
+  padding-left: 50px;
+}
+
+/*//////////////////////////////////// Home Page Classes /////////////////////////////////////////////////*/
+.main-full {
+  min-height: calc(100vh - 146px - 118px);
+}
+.main-text {
+  font-size: 1em;
+  width: calc(100% - 15em);
+  height: auto;
+  background: #fafafa;
+  color: #222;
+  box-shadow: 0 80px 6px -8px #ccc;
+  margin: 0 100px 100px 100px;
+  display: inline-block;
+  padding: 1em;
+}
+.title-home {
+  font-size: 28px;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: black;
+  margin-top: 50px;
+}
+.text2 {
+  font-family: "Lucida Handwriting", cursive;
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+.title-inside-box {
+  color: black;
+  font-size: 24px;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.text-inside-box {
+  color: black;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.tablink {
+  background-color: rgba(216, 216, 216, 0.567);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
+.tablink:hover {
+  background-color: var(tablink);
+}
+.tabcontent {
+  color: whitesmoke;
+  display: none;
+  padding: 100px 20px;
+}
+.image-home {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  overflow: clip;
+}
+/*//////////////////////////////////// About Page Classes /////////////////////////////////////////////////*/
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 15px;
+  height: 500px;
+}
+.box-title {
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+}
+.textP {
+  text-align: justify;
+}
+.imgAbt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  overflow: clip;
+}
+.titleAbt {
+  font-size: 28px;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: black;
+}
+.full-section {
+  min-height: calc(100vh - 146px - 118px);
+}
+/*//////////////////////////////////// Portfolio Classes /////////////////////////////////////////////////*/
+.portfolio-img1 {
+  display: flex;
+  padding: 0 50px 0;
+  margin: 0;
+  border: 10px solid black;
+  width: 33%;
+  align-items: center;
+}
+.portfolio-img2 {
+  display: flex;
+  padding: 50px;
+  margin: 0;
+  border: 10px solid black;
+  width: 100%;
+}
+.responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  overflow: clip;
+  object-fit: fill;
+}
+.portfolio-box-matrix {
+  background-image: url("./image-files/matrix.gif");
+}
+.rowhalf {
+  display: flex;
+  border: 10px solid black;
+  padding: 15px;
+}
+.rowmid {
+  display: flex;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  padding: 15px;
+}
+.title-port {
+  font-size: 28px;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  padding: 50px;
+  flex-basis: auto;
+}
+.Portfolio-text {
+  text-align: justify;
+  display: flex;
+  padding: 50px;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+.project-box {
+  font-size: 14px;
+  width: calc(100% - 6em);
+  margin: 2em auto;
+  padding: 0 1em 1em 1em;
+  min-height: 70vh;
+}
+
+/*//////////////////////////////////// Footer Classes /////////////////////////////////////////////////*/
+.footer-class {
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 -2px 4px -2px black;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.868);
+}
+.footer-img {
+  padding: 20px;
+  text-align: center;
+}

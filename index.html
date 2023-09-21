@@ -3,9 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <script src="javascript.js"></script>
   </head>
   <body>
-    <h1>Title</h1>
+    <nav class="nav">
+      <h4 class="nav-title">Carlos Gomez Pacheco</h4>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a class="nav-link" href="./">Home</a></li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main-full">
+      <h1 class="title-home">Hello and Welcome to this page.</h1>
+      <h2 class="text2">"Choose a Path"</h2>
+      <section class="main-text">
+        <div>
+          <button
+            class="tablink"
+            style="background-color: purple"
+            onclick="openPage('Bright-Side', this, 'Purple',)"
+            id="defaultOpen"
+          >
+            Bright-Side
+          </button>
+          <button
+            class="tablink"
+            style="background-color: black"
+            onclick="openPage('Dark-Side', this, 'black')"
+          >
+            Dark-Side
+          </button>
+          <div id="Bright-Side" class="tabcontent">
+            <h3 class="title-inside-box">Gaming</h3>
+            <p class="text-inside-box">
+              From Wiktionary's etymology section, it means having fun, hunting,
+              shooting, fishing etc. It comes from Middle English game, gamen,
+              gammen, from Old English gamen (“sport, joy, mirth, pastime, game,
+              amusement, pleasure”).
+            </p>
+            <div class="image-home">
+              <img
+                class="imgAbt"
+                src="./image-files/tetris-6.svg"
+                alt="Gaming"
+                width="100px"
+                height="100px"
+              />
+            </div>
+          </div>
+
+          <div id="Dark-Side" class="tabcontent">
+            <h3 class="title-inside-box">Programing</h3>
+            <p class="text-inside-box">
+              Programming is the process of creating a set of instructions that
+              tell a computer how to perform a task. We can program using a
+              variety of computer programming languages, such as JavaScript,
+              Python, and C++.
+            </p>
+            <div class="image-home">
+              <img
+                class="imgAbt"
+                src="./image-files/code-branch.svg"
+                alt="Gaming"
+                width="100px"
+                height="100px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-class">
+      <ul>
+        <a href="https://www.facebook.com"
+          ><img
+            class="footer-img"
+            src="./image-files/facebook.svg"
+            alt="Facebook"
+            width="35"
+            height="35"
+        /></a>
+        <a href="https://www.linkedin.com"
+          ><img
+            class="footer-img"
+            src="./image-files/linkedin-original.svg"
+            alt="linkedin-original"
+            width="35"
+            height="35"
+        /></a>
+        <a href="https://www.Github.com"
+          ><img
+            class="footer-img"
+            src="./image-files/githubwhite.svg"
+            alt="GitHub"
+            width="35"
+            height="35"
+        /></a>
+      </ul>
+    </footer>
   </body>
 </html>
