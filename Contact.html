@@ -28,59 +28,51 @@
       </ul>
     </nav>
     <main class="main-full">
-      <h1 class="title-home">Hello and Welcome to this page.</h1>
-      <h2 class="text2">"Choose a Path"</h2>
+      <h1 class="title-home">Contact Us</h1>
       <section class="main-text">
         <div>
-          <button
-            class="tablink"
-            style="background-color: purple"
-            onclick="openPage('Bright-Side', this, 'Purple',)"
-            id="defaultOpen"
-          >
-            Bright-Side
+          <button class="tablink-contact" style="background-color: black">
+            Send us a message
           </button>
-          <button
-            class="tablink"
-            style="background-color: black"
-            onclick="openPage('Dark-Side', this, 'black')"
-          >
-            Dark-Side
-          </button>
-          <div id="Bright-Side" class="tabcontent">
-            <h3 class="title-inside-box">Gaming</h3>
-            <p class="text-inside-box">
-              From Wiktionary's etymology section, it means having fun, hunting,
-              shooting, fishing etc. It comes from Middle English game, gamen,
-              gammen, from Old English gamen (“sport, joy, mirth, pastime, game,
-              amusement, pleasure”).
-            </p>
-            <div class="image-home">
-              <img
-                class="imgAbt"
-                src="./image-files/tetris-6.svg"
-                alt="Gaming"
-                width="100px"
-                height="100px"
+          <div>
+            <div class="row-contact">
+              <input
+                type="text"
+                class="form-contact"
+                name="name"
+                id="name"
+                placeholder="Name"
               />
+              <input
+                type="email"
+                class="form-contact"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                class="form-contact"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+              />
+              <textarea
+                name="message"
+                class="form-contact"
+                id="message"
+                cols="30"
+                rows="6"
+                placeholder="Message"
+                style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+              ></textarea>
             </div>
-          </div>
-
-          <div id="Dark-Side" class="tabcontent">
-            <h3 class="title-inside-box">Programing</h3>
-            <p class="text-inside-box">
-              Programming is the process of creating a set of instructions that
-              tell a computer how to perform a task. We can program using a
-              variety of computer programming languages, such as JavaScript,
-              Python, and C++.
-            </p>
-            <div class="image-home">
-              <img
-                class="imgAbt"
-                src="./image-files/code-branch.svg"
-                alt="Gaming"
-                width="100px"
-                height="100px"
+            <div class="submit-buttom">
+              <input
+                type="submit"
+                name="Send Message"
+                id="submit"
+                class="submit"
               />
             </div>
           </div>
