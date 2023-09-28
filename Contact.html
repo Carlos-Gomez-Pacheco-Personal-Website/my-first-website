@@ -34,48 +34,56 @@
           <button class="tablink-contact" style="background-color: black">
             Send us a message
           </button>
-          <div>
-            <div class="row-contact">
-              <input
-                type="text"
-                class="form-contact"
-                name="name"
-                id="name"
-                placeholder="Name"
-              />
-              <input
-                type="email"
-                class="form-contact"
-                name="email"
-                id="email"
-                placeholder="Email"
-              />
-              <input
-                type="text"
-                class="form-contact"
-                name="subject"
-                id="subject"
-                placeholder="Subject"
-              />
-              <textarea
-                name="message"
-                class="form-contact"
-                id="message"
-                cols="30"
-                rows="6"
-                placeholder="Message"
-                style="font-family: Verdana, Geneva, Tahoma, sans-serif"
-              ></textarea>
+          <form action="https://formsubmit.co/Hases666@gmail.com" method="POST">
+            <div>
+              <div class="row-contact">
+                <input
+                  type="text"
+                  class="form-contact"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                />
+                <input
+                  type="email"
+                  class="form-contact"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+                <input
+                  type="text"
+                  class="form-contact"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                />
+                <textarea
+                  name="message"
+                  class="form-contact"
+                  id="message"
+                  cols="30"
+                  rows="6"
+                  placeholder="Message"
+                  style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+                ></textarea>
+              </div>
+              <div class="submit-buttom">
+                <input
+                  type="submit"
+                  onclick="submita()"
+                  id="submit"
+                  class="submit"
+                />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://carlos-gomez-pacheco-personal-website.github.io/my-first-website/Contact.html"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+              </div>
             </div>
-            <div class="submit-buttom">
-              <input
-                type="submit"
-                name="Send Message"
-                id="submit"
-                class="submit"
-              />
-            </div>
-          </div>
+          </form>
         </div>
       </section>
     </main>

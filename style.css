@@ -256,6 +256,7 @@ body {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+  margin: 2px;
 }
 .row-contact {
   display: flex;
